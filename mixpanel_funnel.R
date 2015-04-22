@@ -1,6 +1,7 @@
 key <- ""
 secret <- ""
 
+#start of function
 mixpanel_funnel <- function(from_date, to_date, length, funnel_id, unit, key, secret){
   
   library(RCurl)
